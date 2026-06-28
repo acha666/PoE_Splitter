@@ -1,0 +1,10 @@
+/.history
+/bom
+/fp-info-cache
+/_restore_backup_*
+/*.pdf
+/*.bak
+*.kicad_prl
+*.lck
+/outputs
+_autosave*

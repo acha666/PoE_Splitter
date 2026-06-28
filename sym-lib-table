@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PoE_Splitter") (type "KiCad") (uri "${KIPRJMOD}/PoE_Splitter.kicad_sym") (options "") (descr ""))
+)

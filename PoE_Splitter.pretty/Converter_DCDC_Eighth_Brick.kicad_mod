@@ -1,0 +1,225 @@
+(footprint "Converter_DCDC_Eighth_Brick"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.62 -5.4 0)
+		(layer "F.SilkS")
+		(uuid "9652e731-2e78-4326-9dc9-1b4e5e44204e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_Eighth_Brick"
+		(at -7.62 56.4 0)
+		(layer "F.Fab")
+		(uuid "9a0ff7df-cce4-47fa-b48c-b0ff7d90cd7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d86f865-c2e1-4cf7-8c1c-b6a77c3642eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df16ba9d-b476-4204-8b07-0b6561009515")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -19.66 -4.42)
+		(end -19.66 55.22)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53a967a4-e2bc-48ce-b3e4-5efd6f849ead")
+	)
+	(fp_line
+		(start -19.66 55.22)
+		(end 4.42 55.22)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0305d5ca-bc5e-42fb-b6af-d79393ee4b15")
+	)
+	(fp_line
+		(start -0.3048 -4.42)
+		(end -19.66 -4.42)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "da08073e-4c7c-4784-a35b-6208a0284eee")
+	)
+	(fp_line
+		(start 4.42 -4.42)
+		(end 0.3048 -4.42)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43d399f7-e5bf-46da-8787-0130e0b31019")
+	)
+	(fp_line
+		(start 4.42 55.22)
+		(end 4.42 -4.42)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9170e138-cf16-4895-a09b-64c35a93d96e")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -4.406171) (xy -0.44 -5.016171) (xy 0.44 -5.016171)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "804382f1-27d7-454e-a40d-288239d8eb0e")
+	)
+	(fp_rect
+		(start -19.8 -4.56)
+		(end 4.56 55.36)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "be279a3e-1762-48cd-8ce3-a243a24af28b")
+	)
+	(fp_poly
+		(pts
+			(xy 3.81 -3.1496) (xy 3.1496 -3.81) (xy -19.05 -3.81) (xy -19.05 54.61) (xy 3.81 54.61)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6f1b3a85-09d6-447b-bc23-48f5364eb3c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -7.62 25.4 0)
+		(layer "F.Fab")
+		(uuid "94040555-695c-4803-a5a7-de2db9b8355a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.083333)
+		(uuid "1f32230a-98c1-4b24-9170-24597c191054")
+	)
+	(pad "2" thru_hole circle
+		(at -7.62 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d69a5c21-cc11-4314-ba15-c9cf5111e03d")
+	)
+	(pad "3" thru_hole circle
+		(at -15.24 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8064f5ad-d3ec-4f00-af2d-f9b25e312634")
+	)
+	(pad "4" thru_hole circle
+		(at -15.24 50.8)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4223c69e-a732-4873-9a52-5e28b1f220d6")
+	)
+	(pad "5" thru_hole circle
+		(at -11.43 50.8)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "708ee9e2-4dd2-4419-8c56-a50a3f65e2b3")
+	)
+	(pad "6" thru_hole circle
+		(at -7.62 50.8)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa0712ee-a4c1-4935-8079-07ffe2e069fc")
+	)
+	(pad "7" thru_hole circle
+		(at -3.81 50.8)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62bdf365-1bc5-4802-9311-932745e393cf")
+	)
+	(pad "8" thru_hole circle
+		(at 0 50.8)
+		(size 4 4)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09420f0b-4cc5-4606-b29f-9c472ab4cd1a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PoE_Splitter.3dshapes/Converter_DCDC_Eighth_Brick.wrl"
+		(offset
+			(xyz -18.55 8.78 3.47)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
