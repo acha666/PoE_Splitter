@@ -816,6 +816,228 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PoE_Splitter:AMASS_XT30PW(2+2)-M"
 			(pin_names
 				(offset 1.016)
@@ -2058,10 +2280,16 @@
 		(uuid "ffea9543-efcf-43ba-9e07-b0c276d718c4")
 	)
 	(junction
-		(at 184.15 113.03)
+		(at 138.43 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18aecfc0-b7dd-451b-a24d-0719dc365a4b")
+		(uuid "0ca4ac9e-2c9b-4f12-8a56-45d096db67b4")
+	)
+	(junction
+		(at 147.32 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f0f08a-01c4-4599-90e4-2a502c5f283a")
 	)
 	(junction
 		(at 261.62 38.1)
@@ -2076,16 +2304,16 @@
 		(uuid "60331910-bc1b-47d9-b04b-c95a0b0c8bf3")
 	)
 	(junction
+		(at 147.32 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e1a73ab-0466-48a5-82c8-2fe67c42e6fb")
+	)
+	(junction
 		(at 193.04 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87a46c86-62eb-4e68-8540-579947d2c6d8")
-	)
-	(junction
-		(at 175.26 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a3c042a-3d84-447a-81c5-db03f5931b63")
 	)
 	(junction
 		(at 184.15 134.62)
@@ -2100,10 +2328,10 @@
 		(uuid "aa9781dc-eb79-4937-8f28-397365059af9")
 	)
 	(junction
-		(at 184.15 102.87)
+		(at 138.43 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b5bd66e4-63be-4b75-88e5-f87aee7f21d8")
+		(uuid "b2b5fe9d-dded-4f68-9cec-0bfbe8ad60f4")
 	)
 	(junction
 		(at 184.15 144.78)
@@ -2122,12 +2350,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc383e5a-3e41-4ffa-b4d3-90267d51b59e")
-	)
-	(junction
-		(at 175.26 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd25a689-779d-40c7-a558-557e732d5d1c")
 	)
 	(junction
 		(at 233.68 121.92)
@@ -2163,16 +2385,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 175.26 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "061d8608-7fc5-4704-9b9d-ab51d7fecdd5")
-	)
-	(wire
-		(pts
 			(xy 184.15 134.62) (xy 184.15 135.89)
 		)
 		(stroke
@@ -2200,16 +2412,6 @@
 			(type default)
 		)
 		(uuid "0939e72a-f539-45a5-b569-b90a35d47d79")
-	)
-	(wire
-		(pts
-			(xy 184.15 111.76) (xy 184.15 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11cf0d3d-9a63-4c5b-80e1-c544261596b0")
 	)
 	(wire
 		(pts
@@ -2283,6 +2485,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 153.67) (xy 138.43 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2531c141-5798-47f3-a1e5-3625eec7a0b7")
+	)
+	(wire
+		(pts
 			(xy 213.36 83.82) (xy 208.28 83.82)
 		)
 		(stroke
@@ -2290,6 +2502,36 @@
 			(type default)
 		)
 		(uuid "2a3e9219-70e7-4e88-8cb7-0d32c72eb8b7")
+	)
+	(wire
+		(pts
+			(xy 119.38 142.24) (xy 138.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5c772f-7230-48cc-8ea2-8e1bf4303ab8")
+	)
+	(wire
+		(pts
+			(xy 147.32 142.24) (xy 156.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb24e97-249c-4845-ac23-e18917b2e8ed")
+	)
+	(wire
+		(pts
+			(xy 154.94 153.67) (xy 154.94 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a32914-b1c0-493a-8535-ea7563cd381e")
 	)
 	(wire
 		(pts
@@ -2313,13 +2555,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 109.22) (xy 193.04 109.22)
+			(xy 138.43 153.67) (xy 138.43 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "355458db-2cd1-4b56-a8f7-b9ecd216b149")
+		(uuid "33861425-f53d-44e6-bbf8-44e82d270602")
 	)
 	(wire
 		(pts
@@ -2333,6 +2575,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 142.24) (xy 138.43 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cf3a10-9b85-447b-b149-7447f426d400")
+	)
+	(wire
+		(pts
 			(xy 71.12 54.61) (xy 87.63 54.61)
 		)
 		(stroke
@@ -2343,13 +2595,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 184.15 113.03)
+			(xy 147.32 152.4) (xy 147.32 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48222b62-d68d-4e63-bd5f-3f34ee3d5a07")
+		(uuid "4ab03319-bb28-4c32-93d3-9c6f6ae720e8")
 	)
 	(wire
 		(pts
@@ -2360,16 +2612,6 @@
 			(type default)
 		)
 		(uuid "4c5f4aa9-bd7d-4c45-953b-2f4276ed38e7")
-	)
-	(wire
-		(pts
-			(xy 175.26 101.6) (xy 175.26 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d744300-b6c6-4831-ab7f-021aacf3e3e5")
 	)
 	(wire
 		(pts
@@ -2413,43 +2655,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 175.26 111.76)
+			(xy 138.43 143.51) (xy 138.43 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5693111c-33e6-4a14-9b77-34ae8a2a6048")
+		(uuid "54f1b4fe-7c17-4719-b695-9027d7c702df")
 	)
 	(wire
 		(pts
-			(xy 191.77 113.03) (xy 184.15 113.03)
+			(xy 154.94 143.51) (xy 154.94 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c28d72f-2367-4589-aded-ef9224d983f9")
-	)
-	(wire
-		(pts
-			(xy 175.26 102.87) (xy 175.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d857e7b-1af1-41e7-9c95-e01e78b6cf51")
-	)
-	(wire
-		(pts
-			(xy 184.15 102.87) (xy 184.15 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61e8aa90-ff1d-429f-a6ad-cb657060679f")
+		(uuid "558841ad-f187-4635-afb2-41415c33f3a2")
 	)
 	(wire
 		(pts
@@ -2523,13 +2745,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 113.03) (xy 191.77 109.22)
+			(xy 138.43 153.67) (xy 147.32 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7acd397f-fd15-4b71-a04a-3c2268ea3fb8")
+		(uuid "79b31acb-fb3b-4e5a-9d36-dfb05d1d3a8b")
+	)
+	(wire
+		(pts
+			(xy 147.32 139.7) (xy 156.21 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3c55c2-a64d-49c2-8a09-52e57b0fa16a")
 	)
 	(wire
 		(pts
@@ -2583,16 +2815,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 184.15 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86431940-9258-4b55-a82d-755e85fdd0c1")
-	)
-	(wire
-		(pts
 			(xy 200.66 138.43) (xy 201.93 138.43)
 		)
 		(stroke
@@ -2603,16 +2825,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 106.68) (xy 193.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a9b727c-758d-429b-9d5b-f750bbc0b632")
-	)
-	(wire
-		(pts
 			(xy 226.06 83.82) (xy 226.06 87.63)
 		)
 		(stroke
@@ -2620,16 +2832,6 @@
 			(type default)
 		)
 		(uuid "912e951f-89d2-4029-9ee2-1d57d54383e0")
-	)
-	(wire
-		(pts
-			(xy 184.15 102.87) (xy 191.77 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e7e681-7643-4892-94e7-f88e69ca5aca")
 	)
 	(wire
 		(pts
@@ -2650,16 +2852,6 @@
 			(type default)
 		)
 		(uuid "939368f5-7281-4e67-ab4f-797e1164add6")
-	)
-	(wire
-		(pts
-			(xy 191.77 102.87) (xy 191.77 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c0ca8f-1a41-47b9-81f6-9fdf8d36b8d8")
 	)
 	(wire
 		(pts
@@ -2693,6 +2885,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 148.59) (xy 119.38 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac57ab46-1ae5-4f53-b321-33e04e8f0c6c")
+	)
+	(wire
+		(pts
 			(xy 255.27 58.42) (xy 261.62 58.42)
 		)
 		(stroke
@@ -2713,6 +2915,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 152.4) (xy 119.38 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3190a2c-351c-43c4-af47-497ccbe5148c")
+	)
+	(wire
+		(pts
 			(xy 233.68 110.49) (xy 233.68 111.76)
 		)
 		(stroke
@@ -2730,6 +2942,16 @@
 			(type default)
 		)
 		(uuid "b519980c-686f-4d33-9ffc-5d95c00c4696")
+	)
+	(wire
+		(pts
+			(xy 147.32 143.51) (xy 154.94 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64186d5-64aa-4212-aca8-c159b46c7097")
 	)
 	(wire
 		(pts
@@ -2783,6 +3005,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 147.32) (xy 156.21 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca403bd1-a45c-46c6-82bf-ea2f57a3f196")
+	)
+	(wire
+		(pts
 			(xy 184.15 144.78) (xy 193.04 144.78)
 		)
 		(stroke
@@ -2790,6 +3022,16 @@
 			(type default)
 		)
 		(uuid "ceb3ea88-ecdc-4f0f-92fb-f1423087ac6f")
+	)
+	(wire
+		(pts
+			(xy 138.43 143.51) (xy 147.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2090b49-9f20-404c-b11e-11a5f1b701b2")
 	)
 	(wire
 		(pts
@@ -2810,6 +3052,16 @@
 			(type default)
 		)
 		(uuid "dd5aea8c-8553-4934-a377-9d35e3dcecaa")
+	)
+	(wire
+		(pts
+			(xy 154.94 153.67) (xy 147.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddff0471-ead4-4b0c-9e16-bd3178c70a66")
 	)
 	(wire
 		(pts
@@ -2853,6 +3105,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 149.86) (xy 156.21 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44f2071-4f77-4f61-b95f-4959daa84f9d")
+	)
+	(wire
+		(pts
 			(xy 233.68 121.92) (xy 233.68 123.19)
 		)
 		(stroke
@@ -2870,6 +3132,16 @@
 			(type default)
 		)
 		(uuid "f10cb25d-44b8-473a-9a2d-bbb239b14811")
+	)
+	(wire
+		(pts
+			(xy 147.32 143.51) (xy 147.32 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a80701-2eca-40de-b68a-f31ddc810418")
 	)
 	(wire
 		(pts
@@ -2911,6 +3183,26 @@
 		)
 		(uuid "05387e7a-9c72-4387-ad4f-3938eb798e24")
 	)
+	(label "SCL"
+		(at 128.27 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15f9ecfc-11d3-4966-8e51-446fa092e27f")
+	)
+	(label "SCL"
+		(at 147.32 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27706067-7c22-4a19-ae36-e2f939563be8")
+	)
 	(label "TPL"
 		(at 255.27 58.42 0)
 		(effects
@@ -2940,6 +3232,26 @@
 			(justify left bottom)
 		)
 		(uuid "693a0ab1-e9c6-4b85-97e6-8e58960c2738")
+	)
+	(label "SDA"
+		(at 147.32 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "849e1559-9b99-4f77-9eb3-026385bdbd28")
+	)
+	(label "SDA"
+		(at 128.27 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab558434-8835-450f-88c7-60a083258057")
 	)
 	(label "TPL"
 		(at 82.55 109.22 180)
@@ -3116,83 +3428,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PoE_Splitter:VOUT+")
-		(at 175.26 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0874ac92-4f2e-4267-a34c-82c8ae591793")
-		(property "Reference" "#PWR05"
-			(at 175.26 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VOUT+"
-			(at 175.26 98.044 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VOUT+\""
-			(at 175.26 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d284deb-9d54-4a9f-9fa4-af7e3dcb6ac9")
-		)
-		(instances
-			(project "PoE_Splitter"
-				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 273.05 43.18 0)
 		(unit 1)
@@ -3203,7 +3438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bf1ea3e-50d6-4170-8dbe-f1a0d8354487")
-		(property "Reference" "R25"
+		(property "Reference" "R3"
 			(at 273.812 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3267,7 +3502,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "R25")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3284,7 +3519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "194a48e7-6764-4a5a-b062-305ced7fce5c")
-		(property "Reference" "C30"
+		(property "Reference" "C36"
 			(at 215.9 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3359,7 +3594,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "C30")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -3376,7 +3611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d5c0afe-205b-4521-ba91-d07295e0d834")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 262.89 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3451,7 +3686,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3468,7 +3703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "204eb493-c7f3-4ebd-b28f-def024f1157e")
-		(property "Reference" "C31"
+		(property "Reference" "C48"
 			(at 242.824 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +3778,187 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "C31")
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PoE_Splitter:AMASS_XT30PW(2+2)-M")
+		(at 161.29 149.86 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20dbff38-9c60-47b1-94a6-79d06f18a4bd")
+		(property "Reference" "J5"
+			(at 163.83 149.8601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AMASS_XT30PW-M"
+			(at 164.084 147.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PoE_Splitter:AMASS_XT30PW(2+2)-M_Horizontal"
+			(at 161.29 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a75e171a-7d24-4efa-a79d-abddd2ae357e")
+		)
+		(pin "2"
+			(uuid "be7905f2-6eeb-43cb-9f73-148cce5fae63")
+		)
+		(pin "3"
+			(uuid "1e7c0afb-a18a-4558-8c91-19d6b9c73d68")
+		)
+		(pin "4"
+			(uuid "3075857f-5794-4fa3-9591-801124b57f72")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "218876e9-6055-458b-98c2-fb6598c4b53e")
+		(property "Reference" "C28"
+			(at 147.574 146.558 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 147.828 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 148.2852 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Rated Voltage" "100V"
+			(at 147.828 152.654 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "898185d9-b20d-4568-95f6-5b7f6ca7841b")
+		)
+		(pin "1"
+			(uuid "1ec6e1d1-0f88-4d8f-a980-6ce34d8e2e20")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -3560,7 +3975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2454fa82-1cb9-4e4a-807b-e0217a31174e")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 104.902 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,7 +4039,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3641,7 +4056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24fe0c23-1497-4bb6-9f29-c36c4e38a5ff")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 274.32 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3716,7 +4131,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3733,7 +4148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "292800b1-498d-423e-8786-b6ea32edd6c0")
-		(property "Reference" "R23"
+		(property "Reference" "R4"
 			(at 250.952 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3797,15 +4212,15 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "R23")
+					(reference "R4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 184.15 107.95 0)
+		(lib_id "PoE_Splitter:VOUT-")
+		(at 138.43 154.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3813,64 +4228,86 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "350cffe2-cc13-4b76-b7d5-7e7a0b1462e8")
-		(property "Reference" "C2"
-			(at 184.404 105.918 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 184.658 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 185.1152 111.76 0)
+		(uuid "299827fe-dfd4-4540-a4d5-f8f0e009fad7")
+		(property "Reference" "#PWR06"
+			(at 138.43 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOUT-"
+			(at 138.43 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 107.95 0)
+			(at 138.43 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 184.15 107.95 0)
+		(property "Description" "Power symbol creates a global label with name \"VOUT-\""
+			(at 138.43 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Rated Voltage" "100V"
-			(at 184.658 112.014 0)
+		(pin "1"
+			(uuid "48bce687-1312-45b5-a4c3-d8cd653c3ac3")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12A")
+		(at 138.43 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "343e8a0d-2628-4a78-aaa1-ea9d0c4c9d29")
+		(property "Reference" "D10"
+			(at 138.684 146.304 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3880,16 +4317,60 @@
 				(justify left)
 			)
 		)
+		(property "Value" "SMAJ12A"
+			(at 138.684 150.876 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 133.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 138.43 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 12.0Vr, SMA(DO-214AC)"
+			(at 138.43 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "615bddc6-351c-4555-ac69-baf4393e85f3")
+			(uuid "02fe82c2-3130-460c-b9ff-ef4f2487be9b")
 		)
 		(pin "1"
-			(uuid "d4c0352a-8c6a-474c-9271-bafc4915a1e2")
+			(uuid "cec88b97-9528-468d-be3a-d8faeea42f27")
 		)
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "C2")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -3907,7 +4388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f9184ae-3115-41f5-be59-2112486d9228")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 209.55 140.9701 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,7 +4452,84 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "J4")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PoE_Splitter:CHASSIS_GND")
+		(at 53.34 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4484ee75-85d6-4d04-8d36-4d0ec8df9245")
+		(property "Reference" "#PWR031"
+			(at 53.34 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CHASSIS_GND"
+			(at 53.34 193.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"CHASSIS_GND\""
+			(at 53.34 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "872eef04-af3c-4e34-b799-30904e171801")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4136,6 +4694,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 44.45 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "639959f5-9cf7-4aec-90b7-cd098d636d84")
+		(property "Reference" "H3"
+			(at 46.99 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 46.99 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+			(at 44.45 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 44.45 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 256.54 118.11 0)
 		(mirror x)
@@ -4147,7 +4781,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "645f0df1-1b2a-4c64-b3dc-f90d004d7066")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 259.08 118.1101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4211,7 +4845,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4228,7 +4862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73613e06-f3c3-4abb-ab79-568c1f28842b")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 104.902 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4292,7 +4926,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4453,6 +5087,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f567127-8d76-41f4-895d-a3a0aefe8bf9")
+		(property "Reference" "H1"
+			(at 29.21 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 29.21 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+			(at 26.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PoE_Splitter:PRE_VSS")
 		(at 226.06 87.63 180)
 		(unit 1)
@@ -4540,7 +5250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7275010-e8c3-46e0-8ae5-7a08147d694f")
-		(property "Reference" "C5"
+		(property "Reference" "C49"
 			(at 193.294 137.668 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,7 +5325,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "C5")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4632,7 +5342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab65f958-1074-4a64-8274-2648b73dea4c")
-		(property "Reference" "R24"
+		(property "Reference" "R5"
 			(at 262.382 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4696,7 +5406,83 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "R24")
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4743c5-73d0-4b16-82f9-3e7c71d0e18a")
+		(property "Reference" "H2"
+			(at 38.1 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 38.1 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4867,7 +5653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b65ca3af-629e-4d0d-a5a3-dfa6428f9717")
-		(property "Reference" "D10"
+		(property "Reference" "D8"
 			(at 233.934 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4931,175 +5717,6 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PoE_Splitter:AMASS_XT30PW(2+2)-M")
-		(at 198.12 109.22 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7bde986-9a53-49f6-85e1-67ac6288538f")
-		(property "Reference" "J1"
-			(at 200.66 109.2201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AMASS_XT30PW-M"
-			(at 200.914 106.426 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PoE_Splitter:AMASS_XT30PW(2+2)-M_Horizontal"
-			(at 198.12 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94b34340-092d-42c7-b358-23b7642595be")
-		)
-		(pin "2"
-			(uuid "06ad829c-24c1-46e2-933c-6cf6894e79f8")
-		)
-		(pin "3"
-			(uuid "c03f33af-f01c-44d8-a74d-5770b277637e")
-		)
-		(pin "4"
-			(uuid "11963b4e-27ff-4a08-8cd1-777a479bdb6a")
-		)
-		(instances
-			(project "PoE_Splitter"
-				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ12A")
-		(at 175.26 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8255bcc-7ee2-423e-ac9e-5b91db93c95d")
-		(property "Reference" "D8"
-			(at 175.514 105.664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ12A"
-			(at 175.514 110.236 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 170.18 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 175.26 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 12.0Vr, SMA(DO-214AC)"
-			(at 175.26 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f3fcc852-72d0-45a2-8e7c-78168a32e5a9")
-		)
-		(pin "1"
-			(uuid "9a0676fd-94f9-4e7b-b300-1c180a32b172")
-		)
-		(instances
-			(project "PoE_Splitter"
-				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
 					(reference "D8")
 					(unit 1)
 				)
@@ -5107,39 +5724,41 @@
 		)
 	)
 	(symbol
-		(lib_id "PoE_Splitter:VOUT-")
-		(at 175.26 114.3 180)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.34 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cc1ce271-3f03-4a54-9eef-185986daa00f")
-		(property "Reference" "#PWR06"
-			(at 175.26 110.49 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "df20f7f9-1c36-4339-b89f-b52e5c7bf9f1")
+		(property "Reference" "H4"
+			(at 55.88 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VOUT-"
-			(at 175.26 118.11 0)
+		(property "Value" "M2"
+			(at 55.88 187.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 175.26 114.3 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad"
+			(at 53.34 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5150,7 +5769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 114.3 0)
+			(at 53.34 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,8 +5779,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VOUT-\""
-			(at 175.26 114.3 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 53.34 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5172,12 +5791,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e6711704-f289-466d-8e4c-c018d54fe27d")
+			(uuid "9d4e51dd-604b-4951-a9be-c463c1c5db29")
 		)
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "#PWR06")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5194,7 +5813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5660ceb-e29d-426d-9366-a3c1a863ef0b")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 251.46 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,7 +5888,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5353,7 +5972,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 124.46)
+		(at 91.44 138.43)
 		(size 27.94 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5369,7 +5988,7 @@
 		)
 		(uuid "0fb5deae-dd88-41f4-86a0-0cf6d5ade140")
 		(property "Sheetname" "DC-DC"
-			(at 114.3 123.7484 0)
+			(at 91.44 137.7184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5380,7 +5999,7 @@
 			)
 		)
 		(property "Sheetfile" "DCDC.kicad_sch"
-			(at 114.3 152.9846 0)
+			(at 91.44 166.9546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5388,6 +6007,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL" output
+			(at 119.38 148.59 0)
+			(uuid "588da6e8-cd08-4809-8df0-4c0938bfc8d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" output
+			(at 119.38 152.4 0)
+			(uuid "95db6b14-22ff-47ea-b172-6173ffcd2179")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PVOUT" output
+			(at 119.38 142.24 0)
+			(uuid "62c8a212-8263-42cc-a853-18d25910d23a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

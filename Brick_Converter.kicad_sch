@@ -1684,6 +1684,12 @@
 		(uuid "03a46337-8e1f-43c4-93e2-3802642c6ac4")
 	)
 	(junction
+		(at 170.18 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd452af-dca0-4bf9-97ce-f5252a72ef1e")
+	)
+	(junction
 		(at 83.82 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1696,10 +1702,28 @@
 		(uuid "28dd312a-c104-4ab0-ae15-e96f92bcd5b3")
 	)
 	(junction
+		(at 162.56 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30ba475e-b2c7-4882-8742-588863ee02c6")
+	)
+	(junction
 		(at 138.43 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39e7bce7-be81-494a-a5be-963f305d8a85")
+	)
+	(junction
+		(at 162.56 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4446a093-61c8-4579-b844-2b2f9825546e")
+	)
+	(junction
+		(at 170.18 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fd3e777-baa6-44a6-80ff-fff993a6223c")
 	)
 	(junction
 		(at 135.89 88.9)
@@ -1732,6 +1756,12 @@
 		(uuid "6899482c-2463-4ef1-929c-5e8a50d58bd4")
 	)
 	(junction
+		(at 154.94 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a98ae3f-2863-4f05-b071-a29ea2467f4e")
+	)
+	(junction
 		(at 138.43 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1742,6 +1772,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5565ecc-1276-4b5e-bb66-ef8d7573e868")
+	)
+	(junction
+		(at 154.94 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afe795e6-800a-4be1-8e78-b945da6e5689")
 	)
 	(junction
 		(at 138.43 78.74)
@@ -1769,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 78.74) (xy 154.94 93.98)
+			(xy 162.56 78.74) (xy 162.56 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1809,6 +1845,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 116.84) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d93c1cd-86de-477e-8c03-c3211f26d0fd")
+	)
+	(wire
+		(pts
 			(xy 138.43 90.17) (xy 138.43 88.9)
 		)
 		(stroke
@@ -1829,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 101.6) (xy 154.94 116.84)
+			(xy 162.56 101.6) (xy 162.56 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1889,6 +1935,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 116.84) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c07483f-7838-4aea-98ce-d6b93c637e92")
+	)
+	(wire
+		(pts
 			(xy 138.43 78.74) (xy 138.43 88.9)
 		)
 		(stroke
@@ -1936,6 +1992,26 @@
 			(type default)
 		)
 		(uuid "57fb3585-ff26-48c5-b294-4aa3a82beff1")
+	)
+	(wire
+		(pts
+			(xy 154.94 116.84) (xy 162.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2a00bf-ac42-45f5-9310-88da32adeb2d")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 170.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613b4612-2fb6-4541-a2ee-8702083b171e")
 	)
 	(wire
 		(pts
@@ -1989,6 +2065,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 101.6) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f64841-a40a-4362-95ef-4036adafbb5d")
+	)
+	(wire
+		(pts
+			(xy 170.18 101.6) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4bb5e4-3be9-4a0f-ab5e-cbc947c7cb46")
+	)
+	(wire
+		(pts
 			(xy 138.43 97.79) (xy 138.43 100.33)
 		)
 		(stroke
@@ -2029,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 116.84) (xy 147.32 116.84)
+			(xy 147.32 116.84) (xy 154.94 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2046,6 +2142,16 @@
 			(type default)
 		)
 		(uuid "99b50ab7-3a78-42fb-adb4-cfd8706009f4")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9e3fd9-cf26-46ce-8e33-4e8c6e7c1d77")
 	)
 	(wire
 		(pts
@@ -2066,6 +2172,16 @@
 			(type default)
 		)
 		(uuid "9ed63450-7d81-4e8b-97f2-39497a9672fb")
+	)
+	(wire
+		(pts
+			(xy 154.94 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d7accc-f0d9-4789-9de3-12241e05d36e")
 	)
 	(wire
 		(pts
@@ -2099,6 +2215,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 93.98) (xy 154.94 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8770aec-58d3-406f-920a-2e5fa1b3124e")
+	)
+	(wire
+		(pts
 			(xy 91.44 78.74) (xy 91.44 88.9)
 		)
 		(stroke
@@ -2116,6 +2242,16 @@
 			(type default)
 		)
 		(uuid "b169d7dd-04b5-431a-91af-6ba892ad6a1d")
+	)
+	(wire
+		(pts
+			(xy 170.18 78.74) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2389f44-d8f9-4d1a-b70f-cc924f073c93")
 	)
 	(wire
 		(pts
@@ -2269,6 +2405,98 @@
 		(uuid "5b9ff654-3473-4850-bc23-ce5aa957271e")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 170.18 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05629961-abbb-4c1b-8442-88f1edfcae1e")
+		(property "Reference" "C53"
+			(at 170.434 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 170.688 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 171.1452 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 170.18 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Rated Voltage" "100V"
+			(at 170.688 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "61a3703b-5751-4a57-95e2-3cf99b8c0da1")
+		)
+		(pin "1"
+			(uuid "19881414-61e8-4588-84a9-bcd4c4ddefdb")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 138.43 92.71 0)
 		(unit 1)
@@ -2279,7 +2507,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "10920d7d-3d94-4667-a8ce-bc6432e0effc")
-		(property "Reference" "R2"
+		(property "Reference" "R19"
 			(at 139.192 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2343,7 +2571,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
-					(reference "R2")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2421,6 +2649,98 @@
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 154.94 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d4de67c-4bce-4abd-bf6e-d69a1ccb77ae")
+		(property "Reference" "C17"
+			(at 155.448 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150uF"
+			(at 155.448 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 155.9052 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 154.94 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Rated Voltage" "63V"
+			(at 155.448 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "33f0dfbb-1741-4936-a7c1-35e7ef44d8ab")
+		)
+		(pin "1"
+			(uuid "dd38503d-f321-4855-8a57-438d3eb61a21")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2505,7 +2825,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 154.94 97.79 0)
+		(at 162.56 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2514,8 +2834,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e8c2cc1-eb67-4e41-8406-05f432ef0eab")
-		(property "Reference" "C4"
-			(at 155.194 95.758 0)
+		(property "Reference" "C40"
+			(at 162.814 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2526,7 +2846,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 155.448 100.33 0)
+			(at 163.068 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2537,7 +2857,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 155.9052 101.6 0)
+			(at 163.5252 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +2868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 97.79 0)
+			(at 162.56 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,7 +2879,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 154.94 97.79 0)
+			(at 162.56 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2570,7 +2890,7 @@
 			)
 		)
 		(property "Rated Voltage" "100V"
-			(at 155.448 101.854 0)
+			(at 163.068 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2589,7 +2909,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
-					(reference "C4")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2606,7 +2926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47f1cf95-24d3-4068-8d1b-60a1976c97ab")
-		(property "Reference" "C10"
+		(property "Reference" "C37"
 			(at 114.3 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2681,7 +3001,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
-					(reference "C10")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -2698,7 +3018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b17efb6-eda3-4e85-968d-3a2945575999")
-		(property "Reference" "C1"
+		(property "Reference" "C32"
 			(at 114.3 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2773,7 +3093,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
-					(reference "C1")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -2790,7 +3110,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "a8c20f78-7fe0-4e09-bd7f-fcdcdc8d67b2")
-		(property "Reference" "R3"
+		(property "Reference" "R20"
 			(at 139.192 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2854,7 +3174,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
-					(reference "R3")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2969,7 +3289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca1433f4-fcd6-44fe-a0e4-e6d8b9f32169")
-		(property "Reference" "C3"
+		(property "Reference" "C18"
 			(at 147.828 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3044,7 +3364,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
-					(reference "C3")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3225,7 +3545,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "def4056e-d52b-42ef-9a92-3aeab4f94a41")
-		(property "Reference" "R1"
+		(property "Reference" "R12"
 			(at 92.202 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +3609,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
-					(reference "R1")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3383,7 +3703,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "ff1487b5-abd1-404b-a012-8c6a2cee4014")
-		(property "Reference" "R4"
+		(property "Reference" "R16"
 			(at 92.202 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3447,7 +3767,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/e30e65c8-79d7-4ea4-bba2-25ece818b265"
-					(reference "R4")
+					(reference "R16")
 					(unit 1)
 				)
 			)

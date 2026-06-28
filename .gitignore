@@ -4,7 +4,7 @@
 /_restore_backup_*
 /*.pdf
 /*.bak
+/*.outputs
 *.kicad_prl
 *.lck
-/outputs
 _autosave*

@@ -2648,7 +2648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "163a1648-a96f-4d67-9640-07cdd168b206")
-		(property "Reference" "C32"
+		(property "Reference" "C7"
 			(at 185.928 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2723,7 +2723,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "C32")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2740,7 +2740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b52abe4-5162-42a0-ba48-66c5eafd7340")
-		(property "Reference" "R22"
+		(property "Reference" "R13"
 			(at 118.872 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2804,7 +2804,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "R22")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2821,7 +2821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1df00be3-3b7a-4a12-a0aa-ec7a0e1d81b4")
-		(property "Reference" "R17"
+		(property "Reference" "R9"
 			(at 87.122 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2885,7 +2885,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2984,7 +2984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31b0c91d-a64f-4452-ad9b-ee4e376ffb29")
-		(property "Reference" "R20"
+		(property "Reference" "R10"
 			(at 93.472 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3048,7 +3048,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "R20")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3065,7 +3065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32f85b36-ba3a-4fff-9943-0b6466d77fcc")
-		(property "Reference" "C22"
+		(property "Reference" "C34"
 			(at 200.914 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3140,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "C22")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3157,7 +3157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35a7338e-8ccf-4317-82a6-781fcad4fb15")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 128.016 65.278 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3276,7 +3276,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3293,7 +3293,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36b20cfb-7f43-4f83-ab44-54cf6a6f3fc0")
-		(property "Reference" "C23"
+		(property "Reference" "C35"
 			(at 208.534 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,7 +3368,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "C23")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -3385,7 +3385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a9dcd6c-6582-4865-ab13-4b7df796a860")
-		(property "Reference" "C21"
+		(property "Reference" "C6"
 			(at 193.548 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3451,6 +3451,17 @@
 				(justify left)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 193.04 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b46a2fd9-fa3b-4ccd-914b-9839390c3993")
 		)
@@ -3460,7 +3471,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "C21")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49939808-a55d-4d1c-9463-0587f018fe1c")
-		(property "Reference" "R21"
+		(property "Reference" "R14"
 			(at 106.68 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +3640,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "R21")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3723,7 +3734,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "628663c1-8872-447b-8e89-6576db70fbc2")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 164.592 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3787,7 +3798,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3958,7 +3969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b03edc59-5982-4500-844f-c34cd4539c2b")
-		(property "Reference" "R13"
+		(property "Reference" "R1"
 			(at 93.472 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4022,7 +4033,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "R13")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4039,7 +4050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c10e14e4-df93-4dd4-8d51-97215ebc2fbf")
-		(property "Reference" "C24"
+		(property "Reference" "C33"
 			(at 216.154 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4114,7 +4125,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "C24")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -4131,7 +4142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd6dc82b-80d2-4f4f-b189-73a68e7d9f39")
-		(property "Reference" "R19"
+		(property "Reference" "R11"
 			(at 112.522 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4195,7 +4206,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "R19")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4212,7 +4223,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "eb78544d-621e-4a03-870e-3478c2fb4e7f")
-		(property "Reference" "R18"
+		(property "Reference" "R2"
 			(at 99.822 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4276,7 +4287,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "R18")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4293,7 +4304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eec2032e-775f-41e1-a964-d91b5e90dfa6")
-		(property "Reference" "D4"
+		(property "Reference" "D7"
 			(at 166.37 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4355,7 +4366,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "D4")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4372,7 +4383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f08ce9b8-ecf6-4905-b47d-cc9695ccae21")
-		(property "Reference" "C13"
+		(property "Reference" "C1"
 			(at 111.76 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4447,7 +4458,7 @@
 		(instances
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/b97941c7-46c2-4c9c-aec0-f8a528a236ea"
-					(reference "C13")
+					(reference "C1")
 					(unit 1)
 				)
 			)
