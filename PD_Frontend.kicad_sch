@@ -2759,7 +2759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0Ω"
 			(at 118.872 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "63.4R"
+		(property "Value" "63.4Ω"
 			(at 87.122 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3003,7 +3003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "90.9R"
+		(property "Value" "90.9Ω"
 			(at 93.472 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3584,7 +3584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.3K"
+		(property "Value" "1.3kΩ"
 			(at 106.68 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3753,7 +3753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0Ω"
 			(at 164.592 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3988,7 +3988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24.9K"
+		(property "Value" "24.9kΩ"
 			(at 93.472 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4161,7 +4161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9K"
+		(property "Value" "49.9kΩ"
 			(at 112.522 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4242,7 +4242,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0Ω"
 			(at 99.822 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)

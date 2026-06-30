@@ -5220,7 +5220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75Ω"
 			(at 179.832 107.696 0)
 			(hide yes)
 			(show_name no)
@@ -5379,7 +5379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75Ω"
 			(at 169.672 107.696 0)
 			(hide yes)
 			(show_name no)
@@ -5656,7 +5656,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75Ω"
 			(at 113.792 107.696 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +5738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75Ω"
 			(at 184.912 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5998,7 +5998,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75Ω"
 			(at 118.872 107.696 0)
 			(hide yes)
 			(show_name no)
@@ -6413,7 +6413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75Ω"
 			(at 123.952 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +6588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75Ω"
 			(at 174.752 107.696 0)
 			(hide yes)
 			(show_name no)
@@ -6747,7 +6747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75Ω"
 			(at 108.712 107.696 0)
 			(hide yes)
 			(show_name no)

@@ -3964,7 +3964,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 124.714 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4135,7 +4135,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "5.1kΩ"
 			(at 154.432 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4728,7 +4728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 147.574 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5004,7 +5004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "5.1kΩ"
 			(at 148.082 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5241,7 +5241,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "71910590-3bf6-4b8d-b7ce-e7518f4f88b1")
 		(property "Reference" "R30"
 			(at 174.752 90.424 0)
@@ -5254,7 +5254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "110kΩ"
+		(property "Value" "10kΩ"
 			(at 174.752 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
