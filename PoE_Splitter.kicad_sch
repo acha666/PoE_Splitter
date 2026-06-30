@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "d9db320b-7bcf-482d-be5b-dfde980903b7")
 	(paper "A4")
+	(title_block
+		(title "PoE_Splitter")
+		(date "${CURRENT_DATE}")
+		(rev "${SHORT_SHA}")
+		(company "Acha")
+		(comment 1 "https://github.com/acha666/PoE_Splitter@${BRANCH}")
+		(comment 2 "GPL-3.0 Licensed")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
