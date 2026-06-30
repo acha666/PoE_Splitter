@@ -2,7 +2,7 @@ name: KiCad PCB CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, dev]
     paths-ignore:
       - "*.md"
       - "LICENSE"
