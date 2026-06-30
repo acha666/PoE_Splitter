@@ -812,6 +812,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PoE_Splitter:AUX_OUT+"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AUX_OUT+"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"AUX_OUT+\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AUX_OUT+_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AUX_OUT+_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PoE_Splitter:MPQ8875A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1795,6 +1934,469 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:USBLC6-2P6"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USBLC6-2P6"
+				(at 0.635 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+				(at 1.016 -6.731 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.016 -8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb ethernet video"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?666*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USBLC6-2P6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2P6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2P6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 72.39 76.2)
@@ -1821,10 +2423,10 @@
 		(uuid "1163e064-8bf3-4f20-b9dc-049c2e17d373")
 	)
 	(junction
-		(at 245.11 76.2)
+		(at 153.67 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "170856bd-ea87-4089-a822-2742b65dc818")
+		(uuid "18498d23-bbf7-4e39-b09d-fd79971c02ce")
 	)
 	(junction
 		(at 198.12 76.2)
@@ -1953,6 +2555,12 @@
 		(uuid "9399ae86-9f9c-4027-ad91-ca6c7db1b17b")
 	)
 	(junction
+		(at 147.32 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a7b1fa-ac77-4c0b-9284-d4c8f0d677ab")
+	)
+	(junction
 		(at 90.17 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1963,6 +2571,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c25b1307-a6d2-435b-93d9-ab8f075802d0")
+	)
+	(junction
+		(at 153.67 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4ba216b-cc13-4d1b-8b27-b92472260941")
 	)
 	(junction
 		(at 219.71 107.95)
@@ -1999,6 +2613,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e59327d6-0c95-4624-bde1-c3141e0cf407")
+	)
+	(junction
+		(at 245.11 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e770437d-ba33-4f02-8719-9455c7ac1063")
 	)
 	(junction
 		(at 142.24 107.95)
@@ -2062,6 +2682,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 129.54) (xy 160.02 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa3c4b2-13ba-484f-9b2d-7dad82d1eb04")
+	)
+	(wire
+		(pts
 			(xy 140.97 53.34) (xy 147.32 53.34)
 		)
 		(stroke
@@ -2082,6 +2712,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 129.54) (xy 184.15 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117d8e6d-465e-45dd-94eb-4a06726347af")
+	)
+	(wire
+		(pts
+			(xy 147.32 120.65) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cbbf44-b636-4fcb-a63e-5bcd6751dd41")
+	)
+	(wire
+		(pts
 			(xy 50.8 76.2) (xy 72.39 76.2)
 		)
 		(stroke
@@ -2092,6 +2742,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 127) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163e15c2-6fab-4207-bac1-876898b0efb9")
+	)
+	(wire
+		(pts
+			(xy 153.67 125.73) (xy 153.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d253dd-e7cf-4f6a-96b4-b94296409667")
+	)
+	(wire
+		(pts
 			(xy 58.42 85.09) (xy 58.42 76.2)
 		)
 		(stroke
@@ -2099,6 +2769,16 @@
 			(type default)
 		)
 		(uuid "1b263a07-0639-4834-863f-fe72c68ae319")
+	)
+	(wire
+		(pts
+			(xy 165.1 129.54) (xy 170.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b84025e-eba5-4623-80cf-47fdaba5b3da")
 	)
 	(wire
 		(pts
@@ -2142,6 +2822,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 127) (xy 153.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5ed973-1389-49ab-b858-f195c02ca879")
+	)
+	(wire
+		(pts
 			(xy 100.33 107.95) (xy 129.54 107.95)
 		)
 		(stroke
@@ -2179,6 +2869,16 @@
 			(type default)
 		)
 		(uuid "37936671-3312-47b8-9109-ca55a53f8833")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 175.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393c62b0-b843-4ec9-9f13-8e0f45ed3859")
 	)
 	(wire
 		(pts
@@ -2342,6 +3042,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 127) (xy 170.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af2cb9a-e58f-451e-8f29-26cea8b9930e")
+	)
+	(wire
+		(pts
 			(xy 90.17 86.36) (xy 90.17 88.9)
 		)
 		(stroke
@@ -2349,6 +3059,16 @@
 			(type default)
 		)
 		(uuid "6de8b983-f265-4bd8-8f6f-5952ff9e362b")
+	)
+	(wire
+		(pts
+			(xy 175.26 135.89) (xy 175.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7341bc91-3702-4789-b31b-215f9913fdb3")
 	)
 	(wire
 		(pts
@@ -2412,16 +3132,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 60.96) (xy 102.87 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "810e78bd-b0e2-40fb-9575-07e9b0116241")
-	)
-	(wire
-		(pts
 			(xy 124.46 59.69) (xy 124.46 63.5)
 		)
 		(stroke
@@ -2462,6 +3172,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 125.73) (xy 147.32 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ccdc74-c0da-41b2-b09b-acbc15a6a8bf")
+	)
+	(wire
+		(pts
 			(xy 135.89 107.95) (xy 142.24 107.95)
 		)
 		(stroke
@@ -2479,6 +3199,16 @@
 			(type default)
 		)
 		(uuid "8e615574-fac5-4d7d-816d-3dc4c8c1bbc8")
+	)
+	(wire
+		(pts
+			(xy 153.67 127) (xy 160.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924741c4-ea97-4685-a1f5-474ab54c387a")
 	)
 	(wire
 		(pts
@@ -2542,6 +3272,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 119.38) (xy 153.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f86bc4b-45c4-4749-8c2f-81485f17af27")
+	)
+	(wire
+		(pts
 			(xy 219.71 76.2) (xy 227.33 76.2)
 		)
 		(stroke
@@ -2602,6 +3342,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 120.65) (xy 153.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17ce564-61a9-40da-ac92-35dc82777c20")
+	)
+	(wire
+		(pts
 			(xy 198.12 107.95) (xy 198.12 92.71)
 		)
 		(stroke
@@ -2622,6 +3372,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 119.38) (xy 175.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fa1e6f-c680-4d9c-9d3d-5d8475dc99a6")
+	)
+	(wire
+		(pts
 			(xy 236.22 107.95) (xy 227.33 107.95)
 		)
 		(stroke
@@ -2632,13 +3392,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 63.5) (xy 102.87 63.5)
+			(xy 245.11 74.93) (xy 245.11 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb04146a-73cd-4568-8b1a-c855f30b945d")
+		(uuid "bc4e6ab5-838b-4e2c-962c-d690319b163f")
 	)
 	(wire
 		(pts
@@ -2942,13 +3702,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 76.2) (xy 248.92 76.2)
+			(xy 135.89 129.54) (xy 147.32 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f94843ca-8702-450b-a939-a10a4314548d")
+		(uuid "f877c2f7-912c-4880-941b-9244d836a2a9")
 	)
 	(wire
 		(pts
@@ -2980,15 +3740,25 @@
 		)
 		(uuid "fcf593df-df77-4dbb-869c-eb130589fe48")
 	)
-	(label "SDA"
-		(at 93.98 63.5 0)
+	(label "MPS_VCC"
+		(at 165.1 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "160bc788-5a41-4ed6-b1ab-f1d3001e9900")
+		(uuid "0204dc82-e580-47ea-8c75-3d1b135e6f2b")
+	)
+	(label "MPS_SCL"
+		(at 107.95 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cf6520e-d4ee-4b07-89ba-24d9cbac76db")
 	)
 	(label "MPS_VCC"
 		(at 157.48 93.98 0)
@@ -3000,27 +3770,7 @@
 		)
 		(uuid "3c8ec031-ee19-4d7a-9e8b-d35db0d55798")
 	)
-	(label "SCL"
-		(at 107.95 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d217d67-4e0b-4afc-8f1a-e49b667d04d9")
-	)
-	(label "Net-(C42-Pad2)"
-		(at 173.99 82.55 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e6ce437-f01b-4695-9927-354f994c13e5")
-	)
-	(label "SDA"
+	(label "MPS_SDA"
 		(at 107.95 93.98 0)
 		(effects
 			(font
@@ -3028,7 +3778,27 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b1159eac-aa28-4759-9d21-88d8c98a46e4")
+		(uuid "78f518ef-3454-4863-9e61-14037cb07dda")
+	)
+	(label "MPS_SCL"
+		(at 135.89 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f3d1f5b-de80-4ef1-b57b-03295b320337")
+	)
+	(label "MPS_SDA"
+		(at 135.89 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9123f2b-b1fd-4ff4-a3b4-d52790fae617")
 	)
 	(label "VFB"
 		(at 157.48 83.82 0)
@@ -3040,16 +3810,6 @@
 		)
 		(uuid "da0ec707-d294-42f0-b5ba-7e1014b3c637")
 	)
-	(label "Net-(C42-Pad2)"
-		(at 173.99 82.55 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f1fabf51-1277-4a0d-b566-5df743f2e839")
-	)
 	(label "PG"
 		(at 157.48 88.9 0)
 		(effects
@@ -3060,48 +3820,27 @@
 		)
 		(uuid "f3fae014-5634-418c-b50b-3375def1065c")
 	)
-	(label "SCL"
-		(at 93.98 60.96 0)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 184.15 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "fc3e5e45-8708-4674-b0e4-e862d08dc56d")
+		(uuid "45a94840-d4e4-4bab-bfb7-ed4e2b1ebfc7")
 	)
 	(hierarchical_label "SDA"
 		(shape output)
-		(at 102.87 63.5 0)
+		(at 184.15 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "23ae0a7d-195e-4c49-99a2-f999398d3ae7")
-	)
-	(hierarchical_label "SCL"
-		(shape output)
-		(at 102.87 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49f2b3ef-26de-40f1-82d2-973fcdd10bfd")
-	)
-	(hierarchical_label "PVOUT"
-		(shape output)
-		(at 248.92 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec00fee9-75cf-42b8-a115-f58b04f9910e")
+		(uuid "bac24b36-a69e-4939-a77a-0c2a2b27ed66")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -3367,6 +4106,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 153.67 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b6a85c1-e5f3-4291-abea-9c669d017a70")
+		(property "Reference" "R32"
+			(at 154.432 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 154.432 124.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 153.67 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 153.67 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48edd63c-fda2-4e16-ac3f-7e81a929f325")
+		)
+		(pin "2"
+			(uuid "fe2b9658-ca3b-45c6-90c0-fb55fa38922c")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PoE_Splitter:VOUT-")
 		(at 50.8 109.22 180)
 		(unit 1)
@@ -3385,7 +4205,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3395,7 +4215,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3704,6 +4524,83 @@
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PoE_Splitter:VOUT-")
+		(at 175.26 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26b20d81-7617-4e76-9c0e-c78c7f43ab58")
+		(property "Reference" "#PWR033"
+			(at 175.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "VOUT-"
+			(at 175.26 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VOUT-\""
+			(at 175.26 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "509e75d2-6dc0-49a8-8066-a13494f63174")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4078,6 +4975,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 147.32 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6106a0b2-08bd-43eb-9e1b-2c5e819b40a2")
+		(property "Reference" "R31"
+			(at 148.082 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 148.082 124.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.32 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 147.32 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "130dd75b-eb75-4ac0-9be3-676183de95b3")
+		)
+		(pin "2"
+			(uuid "997b4de6-f3f5-4c31-b803-31dcc23e0c43")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PoE_Splitter:AUX_OUT+")
+		(at 245.11 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61c43df3-e5ab-4ef8-9357-6300958493fb")
+		(property "Reference" "#PWR023"
+			(at 245.11 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AUX_OUT+"
+			(at 245.11 71.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"AUX_OUT+\""
+			(at 245.11 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d46a4a75-2ac0-44d3-a4d3-655eacd671cf")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 58.42 88.9 0)
 		(unit 1)
@@ -4245,6 +5300,87 @@
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 162.56 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72178407-d43d-4b18-9bbf-077096000c49")
+		(property "Reference" "R34"
+			(at 160.528 128.778 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 164.592 128.778 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 162.56 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 162.56 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee62a67d-1606-4a00-9d09-500a6bef1b83")
+		)
+		(pin "2"
+			(uuid "ab94685f-8c2c-448c-b3fe-2a0fff82e124")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4879,6 +6015,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:USBLC6-2P6")
+		(at 175.26 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1b6d4c8-8a1b-4a7a-a45a-2b4db4b47d62")
+		(property "Reference" "U5"
+			(at 175.768 121.412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2P6"
+			(at 175.768 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+			(at 176.276 133.731 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 176.276 135.636 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+			(at 175.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "0acf4aef-d240-40cc-ad57-148160e2fb7f")
+		)
+		(pin "3"
+			(uuid "74f930a6-9eb5-4039-a363-f680e06ed998")
+		)
+		(pin "4"
+			(uuid "0158566b-8b1f-4342-8ade-1bf326d4ddb0")
+		)
+		(pin "2"
+			(uuid "5ebc4895-f1db-471e-91b1-92e01271bca8")
+		)
+		(pin "1"
+			(uuid "fe19e9c0-56e7-45c1-87e8-893d8db00889")
+		)
+		(pin "5"
+			(uuid "daf85f49-9fd9-4959-80db-a37e7cffbe6d")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 184.15 88.9 0)
 		(unit 1)
@@ -5149,6 +6381,87 @@
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 162.56 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc50861b-e2d9-4f94-8d70-7536b0c99bcf")
+		(property "Reference" "R33"
+			(at 160.528 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 164.592 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 162.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 162.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1ed4fe2-704d-452d-a89c-a35718f4c314")
+		)
+		(pin "2"
+			(uuid "95a204ea-8939-4dd8-901c-c53b2f1a1539")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/0fb5deae-dd88-41f4-86a0-0cf6d5ade140"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -5519,7 +6832,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5529,7 +6842,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)

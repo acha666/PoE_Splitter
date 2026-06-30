@@ -1008,7 +1008,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transformer:PT61020EL"
+		(symbol "PoE_Splitter:TG2498S"
 			(pin_names
 				(hide yes)
 			)
@@ -1027,7 +1027,7 @@
 					)
 				)
 			)
-			(property "Value" "PT61020EL"
+			(property "Value" "TG2498S"
 				(at 6.35 20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1037,7 +1037,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Transformer_SMD:Transformer_Ethernet_Bourns_PT61020EL"
+			(property "Footprint" "PoE_Splitter:Transformer_Ethernet_CNDTek_TG2498S"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1048,7 +1048,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.bourns.com/pdfs/PT61020.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C37328808.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1059,7 +1059,7 @@
 					)
 				)
 			)
-			(property "Description" "10/100/1000 Base-T Ethernet Transformer, SMD-24"
+			(property "Description" "10GBASE-T POE+ Transformer Module, TG2498S"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1070,7 +1070,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Gigabit PoE RJ45 Transformer Ethernet Lan"
+			(property "ki_keywords" "10G POE+ Ethernet Transformer Single"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1092,7 +1092,7 @@
 					)
 				)
 			)
-			(symbol "PT61020EL_0_1"
+			(symbol "TG2498S_0_1"
 				(rectangle
 					(start -7.62 19.05)
 					(end 7.62 -19.05)
@@ -2113,7 +2113,7 @@
 					)
 				)
 			)
-			(symbol "PT61020EL_1_1"
+			(symbol "TG2498S_1_1"
 				(arc
 					(start -5.08 17.78)
 					(mid -4.4477 17.145)
@@ -6051,7 +6051,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transformer:PT61020EL")
+		(lib_id "PoE_Splitter:TG2498S")
 		(at 146.05 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -6090,29 +6090,29 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/pdfs/PT61020.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C37328808.pdf"
 			(at 146.05 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "10/100/1000 Base-T Ethernet Transformer, SMD-24"
+		(property "Description" "10GBASE-T POE+ Transformer Module, TG2498S"
 			(at 146.05 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)

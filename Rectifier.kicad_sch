@@ -1395,7 +1395,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PoE_Splitter:PRE_VDD"
+		(symbol "PoE_Splitter:VRECT+"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1420,7 +1420,7 @@
 					)
 				)
 			)
-			(property "Value" "PRE_VDD"
+			(property "Value" "VRECT+"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1452,7 +1452,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"PRE_VDD\""
+			(property "Description" "Power symbol creates a global label with name \"VRECT+\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1474,7 +1474,7 @@
 					)
 				)
 			)
-			(symbol "PRE_VDD_0_1"
+			(symbol "VRECT+_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1512,7 +1512,7 @@
 					)
 				)
 			)
-			(symbol "PRE_VDD_1_1"
+			(symbol "VRECT+_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1534,7 +1534,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PoE_Splitter:PRE_VSS"
+		(symbol "PoE_Splitter:VRECT-"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1559,7 +1559,7 @@
 					)
 				)
 			)
-			(property "Value" "PRE_VSS"
+			(property "Value" "VRECT-"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1591,7 +1591,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"PRE_VSS\""
+			(property "Description" "Power symbol creates a global label with name \"VRECT-\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1613,7 +1613,7 @@
 					)
 				)
 			)
-			(symbol "PRE_VSS_0_1"
+			(symbol "VRECT-_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 2.54)
@@ -1639,7 +1639,7 @@
 					)
 				)
 			)
-			(symbol "PRE_VSS_1_1"
+			(symbol "VRECT-_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5447,6 +5447,83 @@
 		)
 	)
 	(symbol
+		(lib_id "PoE_Splitter:VRECT-")
+		(at 177.8 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e7b4e73-a661-43ef-a93a-63eaed0c2fb9")
+		(property "Reference" "#PWR024"
+			(at 177.8 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "VRECT-"
+			(at 177.8 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VRECT-\""
+			(at 177.8 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4986c8dd-160f-42c6-b586-04d74c7c9f83")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/135e74f4-e2a5-4ade-99ba-362d75f4aa12"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 212.09 87.63 0)
 		(unit 1)
@@ -5627,6 +5704,83 @@
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/135e74f4-e2a5-4ade-99ba-362d75f4aa12"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PoE_Splitter:VRECT+")
+		(at 177.8 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61459ab9-a6d3-4401-aad0-d246320d1fcd")
+		(property "Reference" "#PWR05"
+			(at 177.8 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "VRECT+"
+			(at 177.8 54.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VRECT+\""
+			(at 177.8 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3403a11-9ed4-4653-b627-ad9d5d029ebe")
+		)
+		(instances
+			(project "PoE_Splitter"
+				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/135e74f4-e2a5-4ade-99ba-362d75f4aa12"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6151,83 +6305,6 @@
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/135e74f4-e2a5-4ade-99ba-362d75f4aa12"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PoE_Splitter:PRE_VSS")
-		(at 177.8 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8deaf44c-98f4-4879-ab8b-d302eef3c112")
-		(property "Reference" "#PWR024"
-			(at 177.8 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PRE_VSS"
-			(at 177.8 120.396 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"PRE_VSS\""
-			(at 177.8 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6bf78b86-32fd-43aa-b5a0-7709d8cf5c11")
-		)
-		(instances
-			(project "PoE_Splitter"
-				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/135e74f4-e2a5-4ade-99ba-362d75f4aa12"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6970,83 +7047,6 @@
 			(project "PoE_Splitter"
 				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/135e74f4-e2a5-4ade-99ba-362d75f4aa12"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PoE_Splitter:PRE_VDD")
-		(at 177.8 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c6ea0c27-ca64-4e97-a38e-a640c2713321")
-		(property "Reference" "#PWR023"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PRE_VDD"
-			(at 177.8 54.864 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"PRE_VDD\""
-			(at 177.8 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0fd4887-ed08-4034-a80f-11b4054a730b")
-		)
-		(instances
-			(project "PoE_Splitter"
-				(path "/d9db320b-7bcf-482d-be5b-dfde980903b7/135e74f4-e2a5-4ade-99ba-362d75f4aa12"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
