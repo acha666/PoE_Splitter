@@ -776,7 +776,10 @@
       "DC-DC"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "BRANCH": "local",
+    "SHORT_SHA": "000000"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
