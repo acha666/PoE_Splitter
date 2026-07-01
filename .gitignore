@@ -1,10 +1,11 @@
 /.history
-/bom
-/fp-info-cache
 /_restore_backup_*
 /*.pdf
 /*.bak
 /*.outputs
-*.kicad_prl
-*.lck
-_autosave*
+/*.kicad_prl
+/*.lck
+/_autosave*
+/*-info-cache
+
+.DS_Store
