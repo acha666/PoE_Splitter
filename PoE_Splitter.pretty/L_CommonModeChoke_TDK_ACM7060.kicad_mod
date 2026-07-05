@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.95 0)
 		(layer "F.SilkS")
-		(uuid "afcfd89f-014f-452f-b3d4-5007ab249dee")
+		(uuid "3ceba348-486b-47de-b603-5b00d5752d8d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "L_CommonModeChoke_TDK_ACM7060"
 		(at 0 3.95 0)
 		(layer "F.Fab")
-		(uuid "c807d6e9-7edb-44f5-ad93-edf347dcc529")
+		(uuid "23ae8520-fbc6-4120-a95e-c79c90955c27")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "43b02eef-1316-4ff0-a16b-8dd8b4dfcbcd")
+		(uuid "9f164c91-ff9a-4fc7-aeb0-035f9fb1b93e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f05e94a0-9013-4171-abad-0364b1b0a0e4")
+		(uuid "3321796f-b206-4530-a443-d68468557db9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d1d8405b-4d5e-45f7-84b6-06104b56e057")
+		(uuid "671fa252-c299-4aed-b822-b6d3e8bf26fc")
 		(effects
 			(font
 				(size 1 1)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "48ee22b3-f20a-41d8-9426-a026e2f79f2a")
+		(uuid "f89954ca-ecc6-41e1-826b-bcf2c9457dc6")
 	)
 	(fp_line
 		(start -3.61 -2.51)
@@ -81,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3c4e1929-c172-4335-ad8c-b40df80ee2a8")
+		(uuid "7595ebfa-0645-47df-9a5a-87c9bc47d18a")
 	)
 	(fp_line
 		(start -3.61 3.11)
@@ -91,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6b63234c-f3b5-4d93-ac11-e990c29f725e")
+		(uuid "1d47bbf2-7c40-4d0d-9c0c-42813ce8b780")
 	)
 	(fp_line
 		(start 3.61 -3.11)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f85a1f8e-04b1-4ef2-a7a8-0c4e063a85b3")
+		(uuid "36d76337-8eba-448a-93ef-11e741bd6faa")
 	)
 	(fp_line
 		(start 3.61 2.51)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d08f9e74-2267-44d4-aac0-d8826d1250a6")
+		(uuid "fd234008-e989-40cf-a2f5-8f82b63161ea")
 	)
 	(fp_line
 		(start 3.61 3.11)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3cdb0889-e5de-48a5-94e3-b69d4ed1f57f")
+		(uuid "25a5f024-42fb-4adb-b9c4-ed9650bf598a")
 	)
 	(fp_poly
 		(pts
@@ -133,7 +133,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "367194ca-6b61-4a7c-8857-e21ce7acc16c")
+		(uuid "6f8825e5-4fe8-4b2c-b628-fd4305095d92")
 	)
 	(fp_line
 		(start -4.75 -2.5)
@@ -143,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "abf5068d-f511-440a-96cd-5557c656b14a")
+		(uuid "947defc5-c048-436b-971b-05342f91e3b2")
 	)
 	(fp_line
 		(start -4.75 2.5)
@@ -153,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c6396443-73a0-4b16-b8f0-ce46916cd024")
+		(uuid "f0cefbb5-d1ca-4478-ba5a-98a7203d2cc4")
 	)
 	(fp_line
 		(start -3.75 -3.25)
@@ -163,7 +163,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fed0e7ac-02b4-42ea-84d1-af642f89973b")
+		(uuid "9e21639d-57fb-4d3c-8f4e-a0ea003712ca")
 	)
 	(fp_line
 		(start -3.75 -2.5)
@@ -173,7 +173,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8be29ced-ca52-44f0-bda0-b517cd733253")
+		(uuid "999671b5-b921-4a9a-b923-c3927a284335")
 	)
 	(fp_line
 		(start -3.75 2.5)
@@ -183,7 +183,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d6866b9a-a54f-4df7-ba59-b8b3fe25322e")
+		(uuid "f276920e-1650-4450-8e97-636d86e9778c")
 	)
 	(fp_line
 		(start -3.75 3.25)
@@ -193,7 +193,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2ce98926-ae8d-4c50-b0cf-fd38230506e6")
+		(uuid "d59470b4-7649-4ede-8ed3-2afe1b55f6b4")
 	)
 	(fp_line
 		(start 3.75 -3.25)
@@ -203,7 +203,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a65b9fec-8db8-49cf-b7cb-3b10cae68647")
+		(uuid "7f3748c4-ddf5-45da-bffd-1b08b6f15fed")
 	)
 	(fp_line
 		(start 3.75 -2.5)
@@ -213,7 +213,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f2131fef-ed84-41ff-aacf-177c5388610b")
+		(uuid "9dba1b3e-3d03-4618-92bf-5f56f1c30634")
 	)
 	(fp_line
 		(start 3.75 2.5)
@@ -223,7 +223,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "44e85d58-56c5-4027-b65d-8614c81b84f7")
+		(uuid "dc73aea7-fbf1-4f26-bb92-82be6c9b4b43")
 	)
 	(fp_line
 		(start 3.75 3.25)
@@ -233,7 +233,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8e7e0818-661a-4d17-83fc-77cf2c8dc97a")
+		(uuid "9f8bd038-d35d-4c1f-bd36-b2cfa5040677")
 	)
 	(fp_line
 		(start 4.75 -2.5)
@@ -243,7 +243,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c4c2e07c-0b42-4194-a1d8-313ad9f21ee9")
+		(uuid "3c1a7066-3525-47a3-82e8-7773dd072d1c")
 	)
 	(fp_line
 		(start 4.75 2.5)
@@ -253,7 +253,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "801e5c21-c584-45cb-961a-1b81a9f7d3e2")
+		(uuid "bf76f56a-0062-4c69-a8ef-d9076158cfde")
 	)
 	(fp_poly
 		(pts
@@ -265,12 +265,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f681a911-6841-4f86-9dd2-f4533518a05d")
+		(uuid "396cf8f9-cb22-4ad2-98b5-aac8cf6c6e3b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "588b74fa-00bc-4f94-9b64-a87622e28b73")
+		(uuid "99759aa6-a9ba-4e12-9f63-a0020a8390cc")
 		(effects
 			(font
 				(size 1 1)
@@ -283,39 +283,39 @@
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
-		(uuid "4184f20e-99dc-4299-a56b-c5536d0cebd0")
+		(uuid "826be765-e948-48d4-bda1-27c8ea41cac6")
 	)
 	(pad "2" smd roundrect
 		(at -3.25 1.5)
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
-		(uuid "6f0bbbd2-57dc-400f-8dfa-0327098ae890")
+		(uuid "2e4c490c-2105-44ff-9c0b-3ee0e77735da")
 	)
 	(pad "3" smd roundrect
 		(at 3.25 1.5)
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
-		(uuid "12b73414-081e-4b13-8260-1966062aff38")
+		(uuid "bb969b3b-8817-4d3b-bb01-00ea89c80730")
 	)
 	(pad "4" smd roundrect
 		(at 3.25 -1.5)
 		(size 2.5 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
-		(uuid "0318bd31-91e4-4165-b998-f06f4ea42aa4")
+		(uuid "a969ff5b-a1ee-423b-a603-2f5ff9019423")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PoE_Splitter.3dshapes/L_CommonModeChoke_TDK_ACM7060.wrl"
+	(model "${KIPRJMOD}/PoE_Splitter.3dshapes/L_CommonModeChoke_TDK_ACM7060.step"
 		(offset
-			(xyz 0 0 2.7)
+			(xyz -4.55 4.18 -7.38)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -0 -0 -90)
 		)
 	)
 )
